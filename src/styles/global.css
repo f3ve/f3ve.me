@@ -4,7 +4,9 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 @import 'tailwindcss';
+@import 'tailwindcss-animated';
 @plugin '@tailwindcss/typography';
+@plugin '@iconify/tailwind4';
 
 :root {
   --accent: #2337ff;
